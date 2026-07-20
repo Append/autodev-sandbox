@@ -1,0 +1,13 @@
+test_command: "npm test"
+lint_command: "npm run lint"
+# NOTE: base_branch lives in the SUPERVISOR config (repos[].base_branch), not
+# here — one owner, passed into sessions as AUTODEV_BASE_BRANCH.
+max_pr_size: 1500          # changed lines; dev-cycle skill sizes work units under this
+daily_pr_cap: 6
+brainstorm_cooldown_days: 3
+brainstorm_max_issues: 8
+lockfile_line_threshold: 400
+max_deleted_lines: 300
+protected_paths: []
+auth_paths: []
+generated_paths: []
