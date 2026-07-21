@@ -33,5 +33,7 @@ Add a `reverse(str)` utility to `src/`, matching the style of the existing
 ## Scope / constraints
 
 - No new dependencies. No changes outside `src/`, `test/`, `docs/`.
-- README gains one line listing the utility (docs pass).
+- Root `README.md` is out of scope per the issue's constraints; no other
+  existing docs reference the utility list, so the docs pass adds nothing
+  beyond this spec and the plan.
 - Well under `max_pr_size: 1500`.
