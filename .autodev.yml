@@ -11,3 +11,4 @@ max_deleted_lines: 300
 protected_paths: []
 auth_paths: []
 generated_paths: []
+docs_realign: true
