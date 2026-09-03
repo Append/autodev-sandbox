@@ -148,7 +148,7 @@ Expected: no output, `exit=0`.
 ```bash
 npm test 2>&1 | tail -8; npm run lint
 ```
-Expected: `pass 16`, `fail 0`; lint exits 0.
+Expected: `fail 0` and a nonzero `pass` count (the count varies by Node version: 16 with subtests counted, 3 otherwise); lint exits 0.
 
 - [ ] **Step 5: Confirm only docs changed**
 
